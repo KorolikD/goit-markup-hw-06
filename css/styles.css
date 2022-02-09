@@ -831,7 +831,7 @@ header {
   width: 30px;
   height: 30px;
 
-  background-color: #ffffff;
+  background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 
@@ -921,6 +921,7 @@ header {
   line-height: 1.14;
   letter-spacing: 0.01em;
   color: #212121;
+  background-color: transparent;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 
