@@ -643,7 +643,6 @@ header {
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  outline: none;
 }
 
 .mailing-input::placeholder {
@@ -936,14 +935,12 @@ header {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.checkbox-container {
-  margin-bottom: 30px;
-}
-
 .checkbox-field {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin-bottom: 30px;
 }
 
 .modal-check {
@@ -972,6 +969,10 @@ header {
   fill: #ffffff;
 }
 
+.checkbox-item:focus + .modal-check {
+  outline: var(--accent-color) solid 1px;
+}
+
 .checkbox-text {
   line-height: 1.71;
 }
@@ -981,13 +982,10 @@ header {
   color: var(--accent-color);
 }
 
-.submit-button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .submit-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 200px;
   height: 50px;
 
