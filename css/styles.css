@@ -940,7 +940,7 @@ header {
   margin-bottom: 30px;
 }
 
-.checkbox-text {
+.checkbox-field {
   display: flex;
   justify-content: center;
   align-items: center;
